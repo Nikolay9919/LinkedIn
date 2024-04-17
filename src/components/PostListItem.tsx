@@ -8,7 +8,7 @@ type PostListItemProps = {
 
 export default function PostListItem({ post }: PostListItemProps) {
   return (
-    <View>
+    <View style={style.container}>
       <View style={style.header}>
         <Image source={{ uri: post.author.image }} style={style.userImage} />
         <View>
@@ -49,6 +49,10 @@ function FooterButton({ text, iconName }: { text: string; iconName: String }) {
 }
 
 const style = StyleSheet.create({
+  container: {
+    backgroundColor: "white",
+  },
+
   //Header
   header: {
     flexDirection: "row",
