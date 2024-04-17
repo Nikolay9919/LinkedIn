@@ -6,8 +6,7 @@ import PostListItem from "../../components/PostListItem";
 
 import posts from "../../../assets/data/posts.json";
 
-const firstPost = posts[0];
-console.log(firstPost);
+const firstPost = posts[2];
 
 export default function TabOneScreen() {
   return (
@@ -20,8 +19,6 @@ export default function TabOneScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
   },
   title: {
     fontSize: 20,
