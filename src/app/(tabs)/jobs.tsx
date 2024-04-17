@@ -2,10 +2,10 @@ import { StyleSheet } from 'react-native';
 
 import { Text, View } from '../../components/Themed';
 
-export default function NewPost() {
+export default function Jobs() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
+      <Text style={styles.title}>Jobs</Text>
     </View>
   );
 }
